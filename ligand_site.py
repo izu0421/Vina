@@ -1,5 +1,8 @@
 ### use pymol to select & output the residues at 4A distance of the ligand###
 #run with python2
+#the only argument is ligand
+#assumes that the receptor is called receptor.pdbqt.
+#python ligand_site.py -l ligand_name.pdbqt
 
 import os
 import sys
